@@ -1,0 +1,74 @@
+Git hub Tutorials
+
+1. Create acount and repository on git hub
+
+2. Download Git and install on your machine.
+    https://git-scm.com/download/win
+
+3. Open Git bash on your local machine once installation is done
+   -> Create any emty folder -> open the folder -> right click -> 
+   -> click on git bash option -> a new command prompt should open
+
+4. Copy repository path from git server.
+
+5. Clone repository to local machine, run this command to git bash command prompt.
+   
+  #  git clone https://github.com/sqatools/selenium-automation-nov20.git
+
+6. Once reposity is clone to local machine
+
+7. Go to local reposity folder and add any random file in it.
+
+8. Go back to git bash navigate repository folder
+    cd repofolder 
+
+9. run given to check newly file added should be visible in red color
+    $ git status
+
+10. Now add that file to reposity using given command 
+
+   $ git add filename # for specific files
+   $ git add .  # for all files
+
+11. Once file is added check file status again, should be visible in 
+    green color.
+   
+   $ git status # now file is tracked and should be visible in green color.
+
+12. Now we commit locally added file to repository using given command.
+  $   git commit -m "<Message for commit operation>"
+
+  $  git commit -m "New files"
+
+13. Now we will set upstream of branch , its one time task
+
+  $ git push --set-upstream origin master
+
+14. It will open git credential prompt
+    provide valid user and password , it will initiate push operation.
+
+15. now file local file has been uploaded to the server. 
+    you can login to git and verify the file should be 
+    available in the repository on server.
+
+16. Now we add another file then only few commands need to run.
+   -> add new files to repository
+
+   -> git status # all newly added file will in red color
+
+   -> git add <filename>  # one file at time
+
+      or $ git add .      # add all files
+
+   -> git status   # all added files should be visible in green color
+
+   -> git commit -m "<commit message>"
+
+   -> git push
+
+   -> provide required credentials on login prompt
+
+17. Get update your code from , if multiple persons are working on same repo.
+
+   -> git pull 
+   
