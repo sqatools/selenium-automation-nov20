@@ -1,0 +1,5 @@
+ddsfdsfjksdfjasdfa
+ sdfdsfsakdjfksdjf
+ dfasdfjkdsjfds
+to open a file named "file.txt" (stored in the same directory)
+in read mode and printing its content on the console.

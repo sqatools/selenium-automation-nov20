@@ -1,0 +1,29 @@
+Install pytest on machine using this command :
+
+# pip install pytest
+
+# Test file name should strt with test_ as prefix
+-> test_smoke.py
+
+# Test function name should start with test_ as prefix
+-> def test_login_on_web
+
+# Command to execute pytest code
+-> pytest -v test_smoke.py
+
+# Command to install pytest reporter
+https://pypi.org/project/pytest-html-reporter/
+-> pip install pytest-html-reporter
+
+# Command to generate HTML report
+pytest tests/ --html-report=./report/report.html
+
+pytest test_smoke.py --html-report=./report/report.html
+
+
+
+# Command to execute marker test cases in pytest
+
+pytest -m <marker> -v test_group.py
+
+pytest -m smoke -v test_group.py

@@ -1,0 +1,54 @@
+Practice porgram :
+
+1. Get square all even number and cube of odd number in the dict.
+
+inputdict = {'a': 3, 'b': 2, 'c':5, 'd':6}
+ouputdict = {'a': 27, 'b': 4, 'c':125, 'd':36}
+
+
+2. create a dict from number 1 to 10 and value will square of all numbers.
+
+result = {1: 1, 2:4, 3:9, 4:16}
+
+
+3. store factorial of each number from 1 to 10 in dictionary.
+
+result_dict = {1:1, 2:2, 3:6, 4:24, 5:120, 6:720, 7:5040, 8:40320, 9:362880, 10:3628800}
+
+4. Compare two dictionary and store only unique data in another dictionary
+
+dict1 = {'a' :10, 'b': 20, 'c': 40, 'd':50, 'e':70}
+dict2 = {'a' : 10, 'b': 30, 'p':30, 'c':40, 'd': 60}
+
+outputdict = {'b': 30, 'p':30, 'd': 60, 'p':30, 'e':70}
+
+
+5. Print expected output :
+
+input = {1:['a', 'b', 'c'], 2:['e', 'f', 'g']}
+output :
+
+ae
+af
+ag
+be
+bf
+bg
+ce
+cf
+cg
+
+6. Write a dictionary to get everage of each dict values.
+
+inputdict = {'a' : [2, 4, 5, 6], 'b': [5, 7, 8], 'c': [4, 7, 9, 3]}
+
+outputdict = {'a' : 4.25, 'b' : 6.66, 'c': 5.6}
+
+7. Create python script to manage fruit shop.
+   1. fruit_quantity : {'apple' : 50, 'mango':100, 'pineapple' : 60}
+   2. Fruit Price : {'apple' : 200, 'mango': 300, 'pineapple' : 400}}   
+   3. Create a bill as per user requirement and mantain inventory as well.
+   
+   e.g user 5 apple, then total bill will be 5*200 = 1000 and remain apples will be 45.
+   
+   

@@ -1,0 +1,12 @@
+ddsfdsfjk
+sdfjasdfa
+ sdfdsfsa
+ kdjfksdjf
+ dfasdfjkdsjfds
+to open a file named "fil
+e.txt" (stored in t
+he same directory)
+in read mode
+and printi
+ng its content on
+the console.

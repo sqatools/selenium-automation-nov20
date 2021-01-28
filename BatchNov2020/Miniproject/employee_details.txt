@@ -1,0 +1,3 @@
+100={'name': 'John', 'age': '23', 'salary': '15000', 'address': 'Mumbai'}
+103={'name': 'John', 'age': '23', 'salary': '15000', 'address': 'Mumbai'}
+104={'name': 'empl234', 'age': '45', 'salary': '4566', 'address': 'Pune'}

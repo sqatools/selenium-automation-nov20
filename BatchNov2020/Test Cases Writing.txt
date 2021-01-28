@@ -1,0 +1,48 @@
+Goibibo Website :
+
+Login Functinality.
+
+username : 
+password :
+
+submit   Cancel button 
+
+Forgot password
+
+1. Postive Test cases: Expected result should successful
+                  Execution of the task.
+                 -> valid data to be provide to test application
+                 -> e.g login on website with valid username and password
+                 -> Book a flight for specific destination.
+
+2. Negative Test cases: Expected result should be Fail to perform
+                  perticular task and should get proper error message.
+                 -> Login with invalid credentials.
+                 -> Launch website with invalid URL.
+
+
+Login Functionality.
+
+1. Launch login page with valid URL/re-direction and verify.
+2. Login with valid username and valid password and verify.
+3. Login with invalid username and invalid password.
+4. Login with invalid username and valid password.
+5. Password field should input in encrypted format
+6. username field should should accept alpahnumeric char in the field.
+7. provide maximum number of char in username and password and verify.
+8. Try login with Emty username and password and verify.
+9. Cancel/clear button should remove data from input field.
+10. Verify URL should not contain user credentials.
+11. Verify login session should not continue if URL copy from one browser to another.
+12. Verify Forgot Password feature should work fine to change password.
+13. Verify mini char limit on username and password field.
+14. Verify Login via OTP option should be there.
+15. Try to login with Expire OTP and verify login on website.
+16. User password should not visible in log event file.
+17. Verify login button should visible on home page of website.
+18. Verify login button should open login page to accept credentials.
+
+
+
+
+

@@ -1,0 +1,32 @@
+https://www.facebook.com/SQA-Tools-Online-Learning-Platform-100612398333502/reviews/?ref=page_internal
+
+
+1. Write Conver all upper case t lover case.
+
+str1 = " A Long Way To go for me Personally, But I'm still young"
+
+Output = "a lONG wAY tO GO FOR ME pERSONALLY, bUT i'M STILL YOUNG "
+
+
+2. Write a python to get desire output.
+
+input = "leading and trailing whitespace removed "
+
+output = "removed whitespace leading and trailing"
+
+
+3. Write a pthon program to get count of each word.
+
+4. Write a python program repeat each character 4 times.
+
+input = "abcd"
+
+output = "aaaabbbbccccdddd"
+
+5. Write a python program check any word is palimdrom or not in gievn string
+
+Note : palimdrom: reverse or word same as actual word. e.g   pop, eppe, atata
+
+Input = 'step execute shell markedekram build as failure '
+
+outout = markedekram

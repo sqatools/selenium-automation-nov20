@@ -1,0 +1,135 @@
+1) Install Selenium on you machine using pip
+
+# pip install selenium
+
+2) Download Chrome Driver From Given Link
+	i) Check chrome browser version
+        ii) Then Download chrome driver accordingly.
+
+    link : https://chromedriver.chromium.org/downloads
+           https://chromedriver.storage.googleapis.com/index.html?path=87.0.4280.88/
+
+3) GO to Download folder -> copy driver zip file (chromedriver_win32.zip) to
+   some folder on any drive (C, D, E)
+
+4) Unzip file and Check file permission and provide all required
+   permission.
+
+5) Create Python Script and Execute on your Machine.
+
+6) Three Browsers we are going to deal with.
+
+   i) Chrome
+   ii) Edge Browser
+   iii) Firefox
+
+7) We have to intract with locators:
+
+   i)   ID
+	<input type="text" class="input-text thwcfe-input-field" name="travname"    id="travname"    placeholder="" value="">
+
+   ii)  name
+	<input type="text" class="input-text thwcfe-input-field"    name="travname"    id="travname" placeholder="" value="">
+
+
+   iii) css Selector:   tagname[attribute='attribute value']
+
+               a) -> input[name='travname'] : Identified
+                  -> textarea[name='order_comments']
+		  -> p[id='order_comments_field']>label
+                  -> div[class='woocommerce-additional-fields']>div>p>label
+
+
+	       b) #travname  : Identified
+               c) .classname  : did not Identified  :  tagname.classname
+               d) input#travname : Identified
+               e) div>p#order_comments_field>textarea  : Indentified
+
+
+   iv)  Xpath :
+
+  # Absolute Xpath : Absolute xapth contains complete pathfrom the root element to
+                                 target element.
+		Examples : /html/body/div[1]/div/div/section[2]/div/div/div/div/form/div[3]/div[1]/div/div[5]/p[1]/input
+
+ # Relative xpath : Relative xpath simply refrencing the element that we want from
+                                 particular location.
+
+       General Formula :    //tagname[@attribute='attribute value']
+                            //*[@attribute='attribute value']
+
+ 1) Basic XPath
+                Example :
+				//input[@name='fromcity']
+                          	//*[@id="fromcity"]
+				//*[@id="order_comments"]
+                                //textarea[@id="order_comments"]
+                                //textarea[@name="order_comments"]
+                                //p//textarea[@name="order_comments"]
+                                //p//*[@name="order_comments"]
+                                //input[@type='radio' and @id='sex_1']
+                                //input[@type='checkbox']
+
+
+ 2) Contains Method :
+               general Formula : //tagname[contains(@attribute, 'partial value')]
+                                 //*[contains(@attribute, 'partial value')]
+		                 //[contains(text(), 'partial text')]
+
+               Examples :
+                         //input[contains(@name,'addmorepax')]
+                         //input[contains(@name,'billing_postcode')]
+
+
+3) AND & OR Condition :
+             General Formula: //tagname[@att1='value1' and @att2='value1']
+                             //*[@att1='value1' and @att2='value1']
+                             //tagname[contains(@att1, 'value1') or @att2='value2']
+
+            Examples : //input[@id='billname' and @name='billname']
+                       //input[contains(@id,'bill') and @name='billname']
+
+
+
+4) Text Method : General Formula
+                          //tagname[text()='element text']
+                          //*[text()='text contains']
+                 Examples :
+                           //label[text()=' Add more passengers:']
+
+
+//span[@itemprop="price"]//span[contains(text(), '1,200')]//ancestor::li//input[@type='radio']
+
+
+5) Xpath Axes :
+
+
+   a) following  :  Refer any element from the given target element in downside in the dom structure
+
+                 General Formula :  //tagname[@attribute='value']//follwing::tagname
+                 Examples :
+                           //input[@id='fromcity']//following::input[@id='deliverymethod_1']
+                           //label[text()='Choose option']//following::input[@id='deliverymethod_2']
+
+   v)   Link
+   vi)  Text
+   vii) Partial link
+
+
+###########################################
+table values
+http://dtemaharashtra.gov.in/StaticPages/frmInstituteList.aspx?RegionID=6&RegionName=Pune
+
+links
+Links : https://www.sqatools.in/p/home.html
+
+Select Multiple Windows
+URL = "https://www.mysmartprice.com/mobile/apple-iphone-7-msp10208"
+
+Handle Alerts on Page
+
+Selenium Waits
+
+
+
+

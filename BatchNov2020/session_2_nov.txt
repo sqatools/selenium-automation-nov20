@@ -1,0 +1,58 @@
+Variable 
+
+a
+b 
+c
+
+a = 12
+b = 20
+# Operator  : +, -, *, /, //, %, =
+
+= : assign value to variable
+== : equal to operator , it compare two variables
+
+
+Data Type :
+
+# Reserved keyword: int, str, dict, list, tup, set,  float
+
+Number : 
+     -> Integer (int) : 12
+     -> Float (float) : 23.2345
+
+String  (str):  'Hello', "World", """Morning"""
+        0 1 2 3
+    -> "G o o d"
+       -4-3-2-1 
+    
+   str1 = "Good Morning"
+
+   Last value : str1[-1]
+   First value : str1[0]
+
+   Length of String : len(str1)
+
+_________________________________________
+        0  1  2  3
+list:  [2, 4, 5, 6] -> list can store any type of data inside it.
+       -4 -3 -2 -1  -> List is mutable , we can modify and reduce or add values in the list
+       
+-----------------------------------------
+Dictionary (dict) : 
+
+
+    dict1 = {}
+
+    -> Dictionary stores values in key value format
+    -> Key should always be unique
+    -> Only immutable data type can be a key
+
+    dict1[key] = value
+
+
+-------------------------------
+Tuple
+
+Set
+
+

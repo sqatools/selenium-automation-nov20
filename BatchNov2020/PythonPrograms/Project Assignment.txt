@@ -1,0 +1,19 @@
+This is small project based on , list, string, if condition and looping
+
+Description : We have to write small restaurant management project.
+which should have following options.
+
+1. Add Employee : Add employee with all the details like name, age, email, salary
+   
+   Tips: We should maintain list of employees, which has list of list.
+   e.g.   employee_list = [['rahul', 23, 'rahul@gmail.com', 10000], ['John', 30, 'john@gmail.com', 50000]]
+
+2. Remove employee : Should able to delete perticular employee details from list using index.
+
+3. Show employee details : Should able show all employee list.
+
+4. Add Sell Item : Should able to add sell ITEM with price.
+                   e.g. [['sandwitch', 60] , ['idli', 70], ['parath', 90]]
+				   
+5. Show Food Menu : Show Complete Menu of all the food items.
+   
