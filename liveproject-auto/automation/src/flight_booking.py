@@ -5,9 +5,8 @@ class flight(BrowserAction):
     def __init__(self, driver):
         super().__init__(driver)
 
-
     def select_source_location(self, from_location):
-        #import pdb; pdb.set_trace()
+        import pdb;pdb.set_trace()
         self.input_text(SRC_FLIGHT_SEARCH, from_location)
         all_datalist = self.get_list_of_elements(SRC_SEARCH_ELEMENTS)
         for element in all_datalist:
@@ -19,9 +18,7 @@ class flight(BrowserAction):
             else:
                 continue
 
-
     def select_destination_location(self, destination_location):
-        #import pdb; pdb.set_trace()
         self.input_text(DEST_FLIGHT_SEARCH, destination_location)
         all_datalist = self.get_list_of_elements(SRC_SEARCH_ELEMENTS)
         for element in all_datalist:
