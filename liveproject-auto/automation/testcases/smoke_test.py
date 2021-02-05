@@ -18,3 +18,7 @@ def test_search_flight(setup):
     setup.f_obj.select_depart_date()
     setup.f_obj.select_return_date()
     sleep(5)
+    setup.f_obj.select_number_of_travellers(adult=adults)
+    sleep(5)
+    setup.f_obj.click_on_search_button()
+    sleep(10)

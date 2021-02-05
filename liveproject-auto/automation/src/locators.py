@@ -16,5 +16,10 @@ DEPART_BOOKING_DATE = (ID, f"fare_202102{depart_date}")
 RETURN_BOOKING_DATE = (ID, f"fare_202102{return_date}")
 RETURN_DATE_CALENDER = (ID, "returnCalendar")
 PASSENGER_DETAILS = (ID, "pax_link_common")
+ADULT_BOX = (ID, "adultPaxBox")
+CHILD_BOX = (ID, "childPaxBox")
+INFANT_BOX = (ID, "infantPaxBox")
 TRAVEL_CLASS_DROPDOWN = (ID, "gi_class")
+
+SEARCH_BUTTON = (ID, "gi_search_btn")
 
