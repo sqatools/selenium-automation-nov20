@@ -23,3 +23,7 @@ TRAVEL_CLASS_DROPDOWN = (ID, "gi_class")
 
 SEARCH_BUTTON = (ID, "gi_search_btn")
 
+DEPART_FLIGHT_PRICES = (XPATH, "//div[@class='fltHpyOnwrdWrp']//span[@class='ico20']")
+RETUNR_FLIGHT_PRICES = (XPATH, "//div[@class='fltHpyRtrnWrp']//span[@class='ico20']")
+BOOK_BUTTON = (XPATH, "//input[@value='BOOK']")
+

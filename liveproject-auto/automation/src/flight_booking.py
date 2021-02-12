@@ -63,4 +63,47 @@ class flight(BrowserAction):
         self.click_element(SEARCH_BUTTON)
 
 
+    def select_maxprice_flight_for_depart(self):
+        allprices = self.get_list_of_elements(DEPART_FLIGHT_PRICES)
+        price_list = []
+        target_list = []
+        radio_button = "//div[@class='fltHpyOnwrdWrp']//span[text()='price']//ancestor::div[@class='dF alignItemsEnd']//label"
+        for price in allprices:
+            print(price.text)
+            data = (price.text).replace(',', "")
+            price_list.append(int(data))
+            target_list.append(price.text)
 
+        min_price = max(price_list)
+        min_index = price_list.index(min_price)
+        target = target_list[min_index]
+
+        print("Max Price :", min_price, target)
+
+        target_element = radio_button.replace('price', target)
+        print(target_element)
+        self.click_element((XPATH, target_element))
+
+    def select_maxprice_flight_for_return(self):
+        allprices = self.get_list_of_elements(RETUNR_FLIGHT_PRICES)
+        price_list = []
+        target_list = []
+        radio_button = "//div[@class='fltHpyRtrnWrp']//span[text()='price']//ancestor::div[@class='dF alignItemsEnd']//label"
+        for price in allprices:
+            print(price.text)
+            data = (price.text).replace(',', "")
+            price_list.append(int(data))
+            target_list.append(price.text)
+
+        min_price = max(price_list)
+        min_index = price_list.index(min_price)
+        target = target_list[min_index]
+
+        print("Max Price :", min_price, target)
+
+        target_element = radio_button.replace('price', target)
+        print(target_element)
+        self.click_element((XPATH, target_element))
+
+    def click_on_book_button(self):
+        self.click_element(BOOK_BUTTON)
