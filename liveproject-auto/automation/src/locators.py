@@ -27,3 +27,12 @@ DEPART_FLIGHT_PRICES = (XPATH, "//div[@class='fltHpyOnwrdWrp']//span[@class='ico
 RETUNR_FLIGHT_PRICES = (XPATH, "//div[@class='fltHpyRtrnWrp']//span[@class='ico20']")
 BOOK_BUTTON = (XPATH, "//input[@value='BOOK']")
 
+####################
+BUS_MENU_OPTION = (XPATH, "(//a[@href='/sbus/'])[1]")
+BUS_FROM_LOCATION = (ID, "autosuggestBusSRPSrcHome")
+# //span[text()='Mumbai, Maharashtra']
+
+BUS_DEST_LOCATION = (ID, "autosuggestBusSRPDestHome")
+BUS_TARVEL_DATE_CALENDER = (XPATH, "//input[@data-testid='openCheckinCalendar']")
+BUS_TRAVEL_DATE = (XPATH, "//span[text()='19'")
+BUS_SEARCH_BUTTON = (XPATH, "//button[@data-testid='searchBusBtn']")
