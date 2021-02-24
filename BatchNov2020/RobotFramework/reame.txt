@@ -1,0 +1,11 @@
+command to install robotframework
+
+# pip install robotframework
+
+command to install selenium library
+
+# pip install robotframework-SeleniumLibrary
+
+Command to run robot file
+
+# robot -d report first_robot_file.robot

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.0 on win32)" generated="20210224 08:57:55.337" rpa="false">
+<suite id="s1" name="First Robot File" source="E:\python-selenium-code-Nov20\selenium-automation-nov20\BatchNov2020\RobotFramework\first_robot_file.robot">
+<test id="s1-t1" name="Search Data on Google">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.google.co.in</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20210224 08:57:55.572" level="INFO">Opening browser 'chrome' to base url 'https://www.google.co.in'.</msg>
+<status status="PASS" starttime="20210224 08:57:55.572" endtime="20210224 08:57:57.927"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=q</arg>
+<arg>selenium</arg>
+</arguments>
+<msg timestamp="20210224 08:57:57.928" level="INFO">Typing text 'selenium' into text field 'name=q'.</msg>
+<status status="PASS" starttime="20210224 08:57:57.928" endtime="20210224 08:57:58.637"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20210224 08:58:03.653" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210224 08:57:58.640" endtime="20210224 08:58:03.653"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>name=btnk</arg>
+</arguments>
+<msg timestamp="20210224 08:58:03.654" level="INFO">Clicking element 'name=btnk'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210224 08:58:03.992" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210224 08:58:03.666" endtime="20210224 08:58:03.992"></status>
+</kw>
+<msg timestamp="20210224 08:58:03.997" level="FAIL">Element with locator 'name=btnk' not found.</msg>
+<status status="FAIL" starttime="20210224 08:58:03.653" endtime="20210224 08:58:03.997"></status>
+</kw>
+<status status="FAIL" starttime="20210224 08:57:55.571" endtime="20210224 08:58:03.998" critical="yes">Element with locator 'name=btnk' not found.</status>
+</test>
+<doc>Suite description</doc>
+<status status="FAIL" starttime="20210224 08:57:55.340" endtime="20210224 08:58:04.000"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="First Robot File">First Robot File</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
